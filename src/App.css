@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.background {
+  background-color: rgb(238 245 255);
+  height: 100vh;
+  width: 100vw;
+}
+
+.app {
+  display: flex;
+  background-color: rgb(248, 248, 248);
+  max-width: 1000px;
+  height: 600px;
+  border-radius: 8px;
+  position: relative;
+  padding: 15px;
+}
+ .side-bar {
+  flex: 1;
+  background-image: url("./assets/img/sideBar.svg");
+  background-repeat: no-repeat;
+
+}
+
+.sidebar-blue {
+ background-color: blue;
+
+}
+
+.steps {
+ 
+}
+
+ul {
+  list-style: none;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+/* li {
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px rgb(255, 255, 255);
+} 
+.step1 {
+  display:flex;
+  color: #0a0041;
+  background-color: #91daec;
+}  */
+
+.step1 {
+  gap: 15px;
+  display: flex;
+}
+
+.infor-step1 {
+  color: #fff;
+}
+.step-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #91daec;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.forms-infor {
+  flex: 2;
+  padding: 40px 80px;
+}
+
+.infor-peaple {
+  color: #0a0041;
+}
+
+.button-step {
+  display: flex;
+  justify-content: space-between;
+}
+
+.go-back, .next-step {
+  background-color: #0a0041;
+  color:#fff;
+  height: 40px;
+  width: 25%;
+  border-radius: 8px;
+  border-color: transparent;
+}
+
+
